@@ -1,0 +1,46 @@
+{
+  "name": "simpleclub",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/agerets/simpleclub#readme",
+  "bugs": {
+    "url": "https://github.com/agerets/simpleclub/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agerets/simpleclub.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "./src/index.ts",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^7.16.0",
+    "axios": "^1.9.0",
+    "convict": "^6.2.4",
+    "csv-parser": "^3.2.0",
+    "csv-writer": "^1.6.0",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "handlebars": "^4.7.8",
+    "http": "^0.0.1-security",
+    "install": "^0.13.0",
+    "multer": "^1.4.5-lts.2",
+    "npm": "^11.4.0",
+    "openai": "^4.100.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/convict": "^6.1.6",
+    "@types/express": "^5.0.2",
+    "@types/multer": "^1.4.12",
+    "@types/node": "^22.15.18",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
